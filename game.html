@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="my-game.css">
+</head> <!--Simple HTML template-->
+<body>
+    <!--Added a background image set at 100vh to size of layout, linked with url-->
+    <style>
+     body {
+        height: 100vh;
+        overflow: hidden;
+        background:
+        url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Blackjack_board.JPG/800px-Blackjack_board.JPG') 
+        center / 100%;
+}
+    </style>
+    <h1>Welcome to Black Jack!</h1> <!--Header-->
+    <p id="demo"> Pick a card</p>  <!--Instructions, turns into card drawn after click--> 
+<button onclick="generateRandomNumber()">Deal</button> <!--Makes button that says "Deal" on it. Generates random number onclick-->
+<script src="math.js"></script> <!--Link for .js file-->
+</body>
+</html>
